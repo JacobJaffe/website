@@ -1,8 +1,8 @@
 ---
-# From:
-# https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment#0256db91b312498f8241a50bb68ed48f
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+# From:
+# https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment#0256db91b312498f8241a50bb68ed48f
